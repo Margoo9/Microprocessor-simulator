@@ -171,9 +171,6 @@ class Application(QMainWindow, QWidget):
             self.stack_view.removeItem(0)
 
 
-    # -------------------------------------
-    # STREAM ZEBY MI WYSWIETLALO W KONSOLI TEZ A NIE NORMALNIE
-
     def onUpdateText(self, text):
         cursor = self.console.textCursor()
         cursor.movePosition(QTextCursor.End)
